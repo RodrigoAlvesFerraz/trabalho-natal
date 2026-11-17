@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html
+{
+
+    background-image:url(https://cdn.pixabay.com/photo/2016/11/29/13/37/christmas-background-1869902_1280.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: transparent;
+    flex-direction: column-reverse;
+}
+#imagemkk
+{
+    width: 150px;
+    height: 150px;
+}
+#paipai
+{
+    right:20vw;
+    height: 40vh;
+    width: 40vh;
+}
+main
+{
+    width: 100vw;
+    overflow: hidden;
+}
+#texto
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    margin-top: 5vh;
+}
+.feliznatal
+{
+    height: 20vw;
+    width: 20vw;
+}
+#arvore
+{
+    height: 100px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina natal</title>
+    <style>
+        h2 {
+            animation-name: pulso;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.5s;
+            position: relative;
+        }
+        @keyframes pulso {
+            0% {transform: scale(1.0); rotate: 0deg;}
+            50% {transform: scale(1.5); rotate: 10deg;}
+            100%{transform: scale(1.0); rotate: 0deg;}
+        }  
+        #paipai {
+            animation-name: paipai;
+            animation-duration: 40s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-delay: 0.5s;
+            position: relative;
+        }
+    @keyframes paipai {
+        0% {transform: translateX(-100vw) scaleX(1);}
+        45% {transform: translateX(120vw) scaleX(1);}
+        50% {transform: translateX(120vw) scaleX(-1);}
+        95% {transform: translateX(-100vw) scaleX(-1);}
+        100% {transform: translateX(-100vw) scaleX(1);}
+    }
+    #arvore {
+        font-size: 120px;
+        text-align: center;
+        animation-name: piscar;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes piscar {
+        0% {opacity: 1;}
+        50% {opacity: 0.5;}
+        100% {opacity: 1;}
+    }
+            </style>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Feliz Natal! Comemoração de natal do IFSP</h1>
+        <img id="imagemkk" src="IFSP_Logo-removebg-preview.png" alt="">
+    </header>
+    <main>
+        <div id="texto">
+            <h2>neste natal, venha conhecer e comemorar o IFSP</h2>
+        </div>
+        <div id="arvore">
+            <img class="feliznatal" src="images-removebg-preview.png" alt="">
+        </div>
+        <div id="papai">
+            <img id="paipai" src="pngtree-a-cheerful-santa-claus-illustration-walking-with-joyful-stride-png-image_14543154-removebg-preview.png" alt="">
+    </div>
+    </main>
+</body>
+</html>
